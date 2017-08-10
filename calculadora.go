@@ -4,7 +4,8 @@ import "fmt"
 
 func main() {
 	// Collabedit
-	// http://collabedit.com/d536t
+	// ANOTACIONES http://collabedit.com/d536t
+	// CLASES PLATZI http://collabedit.com/fx9cd
 	num1 := getNumbers("Ingrese el primer numero")
 	num2 := getNumbers("Ingrese el segundo numero")
 	fmt.Printf("Se procedera a sumar estos dos numeros %d, %d \n", num1, num2)
