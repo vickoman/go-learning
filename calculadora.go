@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+	// Collabedit
+	// http://collabedit.com/d536t
 	num1 := getNumbers("Ingrese el primer numero")
 	num2 := getNumbers("Ingrese el segundo numero")
 	fmt.Printf("Se procedera a sumar estos dos numeros %d, %d \n", num1, num2)
@@ -10,6 +12,7 @@ func main() {
 	fmt.Printf("La resta de %d y %d es : %d \n", num1, num2, resta(num1, num2))
 	fmt.Printf("La Multiplicacion de %d y %d es : %d \n", num1, num2, multiplica(num1, num2))
 	fmt.Printf("La Division de %d y %d es : %d \n", num1, num2, divide(num1, num2))
+	fmt.Printf("El Modulo de %d y %d es : %d \n", num1, num2, modulo(num1, num2))
 }
 
 func getNumbers(msg string) int {
@@ -32,4 +35,7 @@ func multiplica(a int, b int) int {
 
 func divide(a int, b int) int {
 	return a / b
+}
+func modulo(a int, b int) int {
+	return a % b
 }
